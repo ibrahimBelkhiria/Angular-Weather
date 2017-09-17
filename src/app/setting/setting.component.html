@@ -1,0 +1,23 @@
+<div class="container">
+
+  <h1 class="text-center primary "> Enter City and code </h1>
+
+
+  <form >
+    <div class="form-group">
+      <label > city</label>
+      <input type="text"  class="form-control"  name="city" [(ngModel)]="city"   >
+
+
+      <label > Code</label>
+      <input type="text"  class="form-control" name="code" [(ngModel)]="code"   >
+
+
+    </div>
+
+    <button class="btn btn-success" (click)="saveForm()">Save Changes</button>
+
+
+  </form>
+
+</div>
